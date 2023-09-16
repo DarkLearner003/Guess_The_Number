@@ -1,0 +1,21 @@
+header {
+  height: 35vh;
+  border-bottom: 7px solid var(--color-white);
+  position: relative;
+}
+main {
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 52rem;
+  align-items: center;
+}
+.right {
+  width: 50rem;
+  font-size: 2rem;
+}
